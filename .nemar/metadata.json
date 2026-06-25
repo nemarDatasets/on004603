@@ -1,0 +1,33 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004603",
+  "source": "openneuro",
+  "source_id": "ds004603",
+  "title": "Visual Attribute-Specific Contextual Trajectory Paradigm",
+  "authors": {
+    "Benjamin Lowe (ben.lowe@mq.edu.au)": {},
+    "Jonathan Robinson (jonathan.robinson@monash.edu)": {},
+    "Naohide Yamamoto (naohide.yamamoto@qut.edu.au)": {},
+    "Hinze Hogendoorn (hinze.hogendoorn@qut.edu.au)": {},
+    "Patrick Johnston (dr.pat.johnston@icloud.com)": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004603.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.11.0",
+  "recording_modality": [
+    "beh",
+    "eeg"
+  ],
+  "datatypes": [
+    "beh",
+    "eeg"
+  ]
+}
