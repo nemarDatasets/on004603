@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Visual Attribute-Specific Contextual Trajectory Paradigm",
-  "description": "This dataset comprises EEG recordings from 37 healthy young adults performing a visual contextual trajectory paradigm (CTP) designed to investigate attribute-specific prediction errors. Participants viewed sequences of visual stimuli where the onset of a bound stimulus either violated an established trajectory in brightness, size, or orientation, or appeared as expected during control trials. The dataset enables investigation of neural mechanisms underlying visual prediction and contextual processing.",
-  "methods_description": "EEG data were recorded from 37 subjects (age <35 years, normal or corrected-to-normal vision, no neurological disorders) during a visual contextual trajectory paradigm. Subjects completed trials in which visual stimuli violated established trajectories in brightness, size, or orientation, with control trials where stimuli appeared as expected.",
+  "description": "This dataset comprises EEG recordings from 37 healthy young adults performing a visual contextual trajectory paradigm (CTP) designed to investigate attribute-specific prediction errors. Participants viewed sequences of visual stimuli where the onset of a bound stimulus either violated or maintained established trajectories in brightness, size, or orientation. The dataset enables investigation of neural mechanisms underlying visual prediction and contextual processing.",
+  "methods_description": "EEG data were recorded from 37 subjects (age <35 years, normal or corrected-to-normal vision, no neurological disorders) during a visual contextual trajectory paradigm. Subjects completed trials in which visual stimulus onsets either violated or maintained established trajectories across three visual attributes: brightness, size, and orientation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -29,10 +29,10 @@
       "term": "contextual processing"
     },
     {
-      "term": "event-related potentials"
+      "term": "visual attributes"
     },
     {
-      "term": "visual attributes"
+      "term": "event-related potentials"
     }
   ],
   "related_identifiers": [
