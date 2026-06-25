@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004603",
-  "source": "openneuro",
-  "source_id": "ds004603",
+  "pipeline_stage": "validated",
   "title": "Visual Attribute-Specific Contextual Trajectory Paradigm",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Benjamin Lowe (ben.lowe@mq.edu.au)": {},
     "Jonathan Robinson (jonathan.robinson@monash.edu)": {},
@@ -11,23 +11,66 @@
     "Hinze Hogendoorn (hinze.hogendoorn@qut.edu.au)": {},
     "Patrick Johnston (dr.pat.johnston@icloud.com)": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004603.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004603",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004603",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1016/j.cortex.2023.08.004",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.11.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "beh",
     "eeg"
   ],
-  "datatypes": [
-    "beh",
-    "eeg"
-  ]
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".eeg",
+    ".fif",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises neuroimaging recordings from 37 healthy young adults performing a visual contextual trajectory paradigm. Participants viewed bound stimuli whose onset violated established trajectories in brightness, size, or orientation, with control trials presenting no violations. The study investigates attribute-specific prediction errors in visual perception and contextual processing.",
+  "methods_description": "Data were collected from 37 subjects (age <35 years, normal or corrected-to-normal vision, no neurological disorders) using a visual contextual trajectory paradigm where stimulus onsets violated established trajectories in brightness, size, or orientation attributes, with control trials containing no violations.",
+  "keywords": [
+    {
+      "term": "visual perception"
+    },
+    {
+      "term": "contextual trajectory paradigm"
+    },
+    {
+      "term": "prediction error"
+    },
+    {
+      "term": "attribute-specific processing"
+    },
+    {
+      "term": "neuroimaging"
+    }
+  ],
+  "source_hash": "d22e600c9c4d279c33b267d3b8f3002e8bc9f5544ca32d7869023215273565ab"
 }
